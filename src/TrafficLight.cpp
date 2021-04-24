@@ -63,6 +63,7 @@ void TrafficLight::cycleThroughPhases() {
     std::default_random_engine generator(rd());
     std::uniform_real_distribution<float> unif(4, 6);
 
+    std::this_thread::sleep_for(std::chrono::milliseconds(1));
     while (true) {
         float duration = unif(generator);
         std::this_thread::sleep_for(std::chrono::seconds((int)duration));
@@ -72,6 +73,5 @@ void TrafficLight::cycleThroughPhases() {
             _currentPhase = red;
         }
         _message.send(std::move(_currentPhase));
-        std::this_thread::sleep_for(std::chrono::milliseconds(1));
     }
 }

@@ -27,3 +27,6 @@
 1004	1141	1619081181	traffic_simulation	6e05c5b7039ad0ce
 0	731	1619081362	CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o	c100d8e8645313ea
 731	871	1619081363	traffic_simulation	6e05c5b7039ad0ce
+0	462	1619144167	CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o	e73519653c1f1b29
+0	742	1619144168	CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o	c100d8e8645313ea
+742	883	1619144168	traffic_simulation	6e05c5b7039ad0ce
